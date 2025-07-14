@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  dune-calculator:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - PYTHONPATH=/app/backend
+    volumes:
+      # Optional: Mount data file for easy updates
+      - ./backend/dune_placeables.json:/app/backend/dune_placeables.json:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

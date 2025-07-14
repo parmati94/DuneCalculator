@@ -1,0 +1,333 @@
+[
+  {
+    "name": "Advanced Fremen Deathstill",
+    "resources": {
+      "Duraluminum Ingot": 240,
+      "Silicone Block": 170,
+      "Complex Machinery": 70
+    }
+  },
+  {
+    "name": "Advanced Garment Fabricator",
+    "resources": {
+      "Plastanium Ingot": 140,
+      "Silicone Block": 180,
+      "Complex Machinery": 100,
+      "Spice Melange": 45,
+      "Cobalt Paste": 150,
+      "Armor Plating": 115
+    }
+  },
+  {
+    "name": "Advanced Sub-Fief Console",
+    "resources": {
+      "Salvaged Metal": 40
+    }
+  },
+  {
+    "name": "Advanced Survival Fabricator",
+    "resources": {
+      "Plastanium Ingot": 140,
+      "Silicone Block": 180,
+      "Complex Machinery": 100,
+      "Spice Melange": 45,
+      "Cobalt Paste": 150,
+      "Thermoelectric Cooler": 30
+    }
+  },
+  {
+    "name": "Advanced Vehicle Fabricator",
+    "resources": {
+      "Plastanium Ingot": 140,
+      "Silicone Block": 180,
+      "Complex Machinery": 100,
+      "Spice Melange": 45,
+      "Cobalt Paste": 150,
+      "Industrial Pump": 30
+    }
+  },
+  {
+    "name": "Advanced Weapons Fabricator (Placeable)",
+    "resources": {
+      "Plastanium Ingot": 140,
+      "Silicone Block": 180,
+      "Complex Machinery": 100,
+      "Spice Melange": 45,
+      "Cobalt Paste": 150,
+      "Military Power Regulator": 40
+    }
+  },
+  {
+    "name": "Basic Lighting",
+    "resources": {
+      "Salvage Metal": 70
+    }
+  },
+  {
+    "name": "Blood Purifier",
+    "resources": {
+      "Iron Ingot": 20
+    }
+  },
+  {
+    "name": "Chest",
+    "resources": {
+      "Iron Ingot": 20
+    }
+  },
+  {
+    "name": "CHOAM Facility Set",
+    "resources": {}
+  },
+  {
+    "name": "CHOAM Shelter Set",
+    "resources": {}
+  },
+  {
+    "name": "Fabricator",
+    "resources": {
+      "Salvaged Metal": 75
+    }
+  },
+  {
+    "name": "Fremen Deathstill",
+    "resources": {
+      "Steel Ingot": 40,
+      "Silicone Block": 20,
+      "Complex Machinery": 32
+    }
+  },
+  {
+    "name": "Fuel-Powered Generator",
+    "resources": {
+      "Salvaged Metal": 45
+    }
+  },
+  {
+    "name": "Garment Fabricator",
+    "resources": {
+      "Steel Ingot": 40,
+      "Complex Machinery": 30
+    }
+  },
+  {
+    "name": "Improved Blood Purifier",
+    "resources": {
+      "Iron Ingot": 50,
+      "Silicone Block": 16,
+      "Complex Machinery": 20
+    }
+  },
+  {
+    "name": "Large Ore Refinery",
+    "resources": {
+      "Plastanium Ingot": 380,
+      "Silicone Block": 540,
+      "Complex Machinery": 200,
+      "Cobalt Paste": 200,
+      "Advanced Machinery": 45,
+      "Spice Melange": 745
+    }
+  },
+  {
+    "name": "Large Spice Refinery",
+    "resources": {
+      "Plastanium Ingot": 950,
+      "Silicone Block": 1080,
+      "Complex Machinery": 350,
+      "Spice Melange": 1000,
+      "Cobalt Paste": 1110,
+      "Advanced Machinery": 55
+    }
+  },
+  {
+    "name": "Large Water Cistern",
+    "resources": {
+      "Duraluminum Ingot": 150,
+      "Silicone Block": 160,
+      "Industrial Pump": 25
+    }
+  },
+  {
+    "name": "Large Windtrap",
+    "resources": {
+      "Duraluminum Ingot": 240,
+      "Silicone Block": 250,
+      "Calibrated Servok": 70,
+      "Spice Melange": 5
+    }
+  },
+  {
+    "name": "Medium Chemical Refinery",
+    "resources": {
+      "Plastanium Ingot": 150,
+      "Silicone Block": 90,
+      "Complex Machinery": 50,
+      "Spice Melange": 35
+    }
+  },
+  {
+    "name": "Medium Ore Refinery",
+    "resources": {
+      "Steel Ingot": 125,
+      "Cobalt Paste": 60,
+      "Complex Machinery": 50
+    }
+  },
+  {
+    "name": "Medium Spice Refinery",
+    "resources": {
+      "Plastanium Ingot": 285,
+      "Silicone Block": 225,
+      "Spice Melange": 135,
+      "Complex Machinery": 100,
+      "Cobalt Paste": 150
+    }
+  },
+  {
+    "name": "Medium Storage Container",
+    "resources": {
+      "Plastanium Ingot": 70,
+      "Silicone Block": 14,
+      "Spice Melange": 4
+    }
+  },
+  {
+    "name": "Medium Water Cistern",
+    "resources": {
+      "Steel Ingot": 60,
+      "Silicone Block": 30
+    }
+  },
+  {
+    "name": "Pentashield Surface Horizontal",
+    "resources": {
+      "Steel Ingot": 2,
+      "Cobalt Paste": 24,
+      "Calibrated Servok": 6
+    }
+  },
+  {
+    "name": "Pentashield Surface Vertical",
+    "resources": {
+      "Steel Ingot": 2,
+      "Cobalt Paste": 24,
+      "Calibrated Servok": 6
+    }
+  },
+  {
+    "name": "Recycler",
+    "resources": {
+      "Copper Ingot": 30
+    }
+  },
+  {
+    "name": "Repair Station",
+    "resources": {
+      "Iron Ingot": 40
+    }
+  },
+  {
+    "name": "Small Chemical Refinery",
+    "resources": {
+      "Copper Ingot": 45
+    }
+  },
+  {
+    "name": "Small Ore Refinery",
+    "resources": {
+      "Salvaged Metal": 90
+    }
+  },
+  {
+    "name": "Small Storage Container",
+    "resources": {
+      "Salvaged Metal": 35
+    }
+  },
+  {
+    "name": "Spice Refinery",
+    "resources": {
+      "Duraluminum Ingot": 160,
+      "Silicone Block": 80,
+      "Cobalt Paste": 130,
+      "Complex Machinery": 70
+    }
+  },
+  {
+    "name": "Spice-Powered Generator",
+    "resources": {
+      "Plastanium Ingot": 430,
+      "Silicone Block": 180,
+      "Spice Melange": 270,
+      "Complex Machinery": 100,
+      "Cobalt Paste": 300,
+      "Advanced Machinery": 40
+    }
+  },
+  {
+    "name": "Storage Container",
+    "resources": {
+      "Aluminum Ingot": 45,
+      "Silicone Block": 8
+    }
+  },
+  {
+    "name": "Sub-Fief Console",
+    "resources": {
+      "Salvaged Metal": 25
+    }
+  },
+  {
+    "name": "Survival Fabricator",
+    "resources": {
+      "Steel Ingot": 40,
+      "Complex Machinery": 30
+    }
+  },
+  {
+    "name": "Vehicles Fabricator",
+    "resources": {
+      "Steel Ingot": 40,
+      "Complex Machinery": 30
+    }
+  },
+  {
+    "name": "Water Cistern",
+    "resources": {
+      "Copper Ingot": 20
+    }
+  },
+  {
+    "name": "Weapons Fabricator (Placeable)",
+    "resources": {
+      "Steel Ingot": 40,
+      "Complex Machinery": 30
+    }
+  },
+  {
+    "name": "Wind Turbine Directional",
+    "resources": {
+      "Duraluminum Ingot": 120,
+      "Cobalt Paste": 160,
+      "Calibrated Servok": 50,
+      "Spice Melange": 3
+    }
+  },
+  {
+    "name": "Wind Turbine Omnidirectional",
+    "resources": {
+      "Steel Ingot": 45,
+      "Cobalt Paste": 65,
+      "Calibrated Servok": 20
+    }
+  },
+  {
+    "name": "Windtrap",
+    "resources": {
+      "Steel Ingot": 90,
+      "Silicone Block": 30,
+      "Calibrated Servok": 20
+    }
+  }
+]
