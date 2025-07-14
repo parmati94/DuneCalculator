@@ -14,6 +14,7 @@ function App() {
   const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [searchTerm, setSearchTerm] = useState('');
 
   // Load placeables on component mount
   useEffect(() => {
@@ -104,8 +105,30 @@ function App() {
         <h2>Select Placeables</h2>
         <p>Total items selected: {getTotalSelectedItems()}</p>
         
+        <div className="search-bar">
+          <input
+            type="text"
+            placeholder="Search placeables..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="search-input"
+          />
+          {searchTerm && (
+            <button 
+              className="clear-search-button" 
+              onClick={() => setSearchTerm('')}
+            >
+              ✕
+            </button>
+          )}
+        </div>
+        
         <div className="placeable-grid">
-          {placeables.map((placeable) => (
+          {placeables
+            .filter(placeable => 
+              placeable.name.toLowerCase().includes(searchTerm.toLowerCase())
+            )
+            .map((placeable) => (
             <div key={placeable.name} className="placeable-item">
               <h4>{placeable.name}</h4>
               <div>

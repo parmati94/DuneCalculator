@@ -34,6 +34,44 @@ code {
   border: 1px solid #444;
 }
 
+.search-bar {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #d4af37;
+  box-shadow: 0 0 3px #d4af37;
+}
+
+.clear-search-button {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #999;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.clear-search-button:hover {
+  color: #fff;
+}
+
 .placeable-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
