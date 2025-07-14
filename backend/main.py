@@ -84,8 +84,9 @@ async def calculate_resources(request: CalculationRequest):
     
     # Apply deep desert cost reduction if requested
     if request.use_deep_desert_cost:
+        import math
         total_resources = {
-            resource: max(1, amount // 2)  # Half cost, minimum 1
+            resource: max(1, math.ceil(amount / 2))  # Half cost rounded up, minimum 1
             for resource, amount in total_resources.items()
         }
     
